@@ -1,0 +1,171 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+    <title>Aahar Ambrosial</title> 
+    <link rel="stylesheet" href="menu.css" /> 
+    <link 
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" 
+      rel="stylesheet" 
+    /> 
+  </head> 
+  <body> 
+    <div class="heading"> 
+      <h1>Aahar Ambrosial</h1>  
+  </div> 
+    <main> 
+      <section class="cards"> 
+        <div class="card"> 
+          <div class="card__image-container"> 
+            <img 
+              src="Starters & Snacks_20250905_174438_0000.png" 
+            /> 
+          </div> 
+          <div class="card__content"> 
+            <p class="card__title text--medium"> 
+              Starters & Snacks
+            </p> 
+            <div class="card__info"> 
+              <p class="card__price text--medium"><button input><a href="http://127.0.0.1:5500/Starter.html">Starters & Snacks</a></button></p> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="card"> 
+          <div class="card__image-container"> 
+            <img 
+              src="Main course.png" 
+            /> 
+          </div> 
+          <div class="card__content"> 
+            <p class="card__title text--medium"> 
+              Main Course 
+            </p> 
+            <div class="card__info">  
+              <p class="card__price text--medium"><button input><a href="http://127.0.0.1:5500/Main.html">Main Course</a></button></p> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="card"> 
+          <div class="card__image-container"> 
+            <img 
+              src="Maharashtra special Dish_20250905_124157_0000.png" 
+            /> 
+          </div> 
+          <div class="card__content"> 
+            <p class="card__title text--medium"> 
+              Maharashtra special Dish  
+            </p> 
+            <div class="card__info"> 
+              <p class="card__price text--medium"><button input><a href="http://127.0.0.1:5500/Maharashtra.html">Maharashtra special Dish</a></button></p> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="card"> 
+          <div class="card__image-container"> 
+            <img 
+              src="Italian.png" 
+            /> 
+          </div> 
+          <div class="card__content"> 
+            <p class="card__title text--medium"> 
+              Italian Dish & Drink
+            </p> 
+            <div class="card__info">  
+              <p class="card__price text--medium"><button input><a href="http://127.0.0.1:5500/Italian.html">Italian</a></button></p> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="card"> 
+          <div class="card__image-container"> 
+            <img 
+              src="Salad.png" 
+            /> 
+          </div> 
+          <div class="card__content"> 
+            <p class="card__title text--medium"> 
+              Salad Dish 
+            </p> 
+            <div class="card__info">  
+              <p class="card__price text--medium"><button input><a href="http://127.0.0.1:5500/Salad.html">Salad</a></button></p> 
+            </div> 
+          </div> 
+        </div> 
+        <div class="card"> 
+          <div class="card__image-container"> 
+            <img 
+              src="Dessert.png" 
+            /> 
+          </div> 
+          <div class="card__content"> 
+            <p class="card__title text--medium"> 
+              Dessert 
+            </p> 
+            <div class="card__info"> 
+              <p class="card__price text--medium"><button input><a href="http://127.0.0.1:5500/Dessert.html">Dessert</a></button></p> 
+            </div> 
+          </div> 
+        </div> 
+      </section> 
+    </main> 
+    <script> 
+      !(function() { 
+        var analytics = (window.analytics = window.analytics || []); 
+        if (!analytics.initialize) 
+          if (analytics.invoked) 
+            window.console && 
+              console.error && 
+              console.error("Segment snippet included twice."); 
+          else { 
+            analytics.invoked = !0; 
+            analytics.methods = [ 
+              "trackSubmit", 
+              "trackClick", 
+              "trackLink", 
+              "trackForm", 
+              "pageview", 
+              "identify", 
+              "reset", 
+              "group", 
+              "track", 
+              "ready", 
+              "alias", 
+              "debug", 
+              "page", 
+              "once", 
+              "off", 
+              "on" 
+            ]; 
+            analytics.factory = function(t) { 
+              return function() { 
+                var e = Array.prototype.slice.call(arguments); 
+                e.unshift(t); 
+                analytics.push(e); 
+                return analytics; 
+              }; 
+            }; 
+            for (var t = 0; t < analytics.methods.length; t++) { 
+              var e = analytics.methods[t]; 
+              analytics[e] = analytics.factory(e); 
+            } 
+            analytics.load = function(t, e) { 
+              var n = document.createElement("script"); 
+              n.type = "text/javascript"; 
+              n.async = !0; 
+              n.src = 
+                "https://cdn.segment.com/analytics.js/v1/" + 
+                t + 
+                "/analytics.min.js"; 
+              var a = document.getElementsByTagName("script")[0]; 
+              a.parentNode.insertBefore(n, a); 
+              analytics._loadOptions = e; 
+            }; 
+            analytics.SNIPPET_VERSION = "4.1.0"; 
+            analytics.load("FQ5NJmRc6LrFKVAC6ofHlSU7WIwGAdj5"); 
+            analytics.page(); 
+          } 
+      })(); 
+    </script> 
+  </body> 
+</html>
